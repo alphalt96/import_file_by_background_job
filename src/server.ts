@@ -1,5 +1,5 @@
 require('dotenv').config();
-import app from './app';
+import app from './restapi/app';
 
 const PORT = process.env.PORT;
 
