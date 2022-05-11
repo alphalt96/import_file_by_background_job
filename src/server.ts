@@ -1,5 +1,6 @@
 require('dotenv').config();
-import app from './app';
+import 'reflect-metadata';
+import app from './restapi/app';
 
 const PORT = process.env.PORT;
 
